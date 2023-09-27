@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    #posts{
+        width: 400px;
+    }
+    i{
+        cursor: pointer;
+    }
+    #posts div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .options{
+        display: flex;
+        gap: 25px;
+    }
+    #msg{
+        color: red;
+    }
+}
